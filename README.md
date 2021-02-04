@@ -3,11 +3,11 @@
 ***Author: Michael Regpala  Date: 2/3/2021***
 
 ***Introduction***
-As a data analyst i want to apply my new skills utilizng Python requests library to access API to return JSON data, which can be traversed and utilized in my notebook  This ia a very important skill to have as there is are many entities that make their data available for free or minimal cost, which can give our analsysis value.  After returning data we can utilize our new mapping and linear regression skills to identify correlations and data trends.
+As a data analyst I want to apply my new skills utilizng Python **requests** library to access external API's to return JSON data, which can be traversed and utilized in my notebook  This ia a very important skill to have as there are many entities that make their data available for free or minimal cost, which can give our analysis value.  After returning data we can utilize our new mapping and linear regression skills to identify correlations and data trends.
 
 
 ## WeatherPy Portion of homework
-The jupyter notebook utilizes a function to return random cities based on the geo cordinate ranges and sample size parameters passed into the funtion in a dictionary object.  The funciton calls the citipy API, which will return the closest city to the random coordinates, creating a DataFrame of cities, which is saved as a csv file in the **output_data** directory for later use.  The OpenWather API is used to retrieve the weather stats and actual geo cooridnates for each of the cities selected randomly in newly created  DataFrame.  The following are links to the API's utilzied in WeatherPY notebook.
+The jupyter notebook utilizes a function to return random cities based on geo coordinate ranges and sample size parameters passed into the funtion in a dictionary object.  The funciton calls the citipy API, which will return the closest city to the random coordinates, creating a DataFrame of cities, which is saved as a csv file in the **output_data** directory for later use.  The OpenWather API is used to retrieve the weather stats and actual geo cooridnates for each of the cities selected randomly and store in the newly created  DataFrame.  The following are links to the API's utilzied in WeatherPY notebook.
   - [citipy](https://pypi.pythoin.org/pyi/citipy)
   - [OpenWeatherMap API](https://openweathermap.org/api)
 
